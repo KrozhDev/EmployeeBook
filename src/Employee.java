@@ -4,19 +4,11 @@ public class Employee {
     private String fatherName;
     private int id;
     private Department department;
-
     private int salary;
 
     //todo попробовать билдер
 
-
-
-
-
-
     private static int idCounter = 0;
-
-
     public static final int FIRST = 1;
     public static final int SEC = 2;
     public static final int THIRD = 3;
@@ -90,7 +82,8 @@ public class Employee {
 
     @Override
     public String toString(){
-        return this.surname + " " +
+        return this.id + " " +
+                this.surname + " " +
                 this.name + " " +
                 this.fatherName + " " +
                 this.department + " департамент " +
