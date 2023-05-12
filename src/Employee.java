@@ -6,14 +6,7 @@ public class Employee {
     private Department department;
     private int salary;
 
-    //todo попробовать билдер
-
     private static int idCounter = 0;
-    public static final int FIRST = 1;
-    public static final int SEC = 2;
-    public static final int THIRD = 3;
-    public static final int FOURTH = 4;
-    public static final int FIFTH = 5;
 
     public Employee(String name, String surname, String fatherName, Department department, int salary) {
         this.name = name;
